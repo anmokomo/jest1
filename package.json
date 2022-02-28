@@ -5,6 +5,9 @@
   "repository": "https://github.com/anmokomo/jest1.git",
   "author": "Anna Koehler <anna@foundrymakes.com>",
   "license": "MIT",
+  "scripts":{
+    "test":"jest"
+}
   "dependencies": {
     "jest": "^27.5.1"
   }
