@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts":{
     "test":"jest"
-}
+},
   "dependencies": {
     "jest": "^27.5.1"
   }
