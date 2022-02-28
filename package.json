@@ -1,0 +1,8 @@
+{
+  "name": "jest1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/anmokomo/jest1.git",
+  "author": "Anna Koehler <anna@foundrymakes.com>",
+  "license": "MIT"
+}
