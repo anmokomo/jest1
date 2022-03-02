@@ -1,9 +1,4 @@
-//function we're testing (putting it in same file for simplicity)
-const filterByTerm = (inputArray, filterTerm) => {
-  if(filterTerm){
-    return inputArray.filter(linkObj => linkObj.url.includes(filterTerm.toLowerCase()))
-  }
-}
+const filterByTerm = require('./filterByTerm')
 /* describe = Jest function, contains 1+ related tests
 2 args - string description, function callback wrapping the actual test
 */
@@ -21,7 +16,6 @@ describe('filter by term function (link)',() => {
     //test using inputs and output above:
     expect(filterByTerm(testInputs, 'link')).toEqual(testOutput1)
     expect(filterByTerm(testInputs, 'UrL')).toEqual(testOutput2)
-    expect(filterByTerm(testInputs, '')).toEqual(undefined)
     expect(filterByTerm(testInputs, 'LINK')).toEqual(testOutput1)
   })
 })
